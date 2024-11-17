@@ -7,4 +7,4 @@ def check_html(filename: str):
 
     :param: filename: the filename to check
     """
-    assert name.endswith('.html'), "filename %r must end with '.html'" % name
+    assert filename.endswith('.html'), "filename %r must end with '.html'" % filename
